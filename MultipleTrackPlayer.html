@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Multiple Track Player</title>
+<link rel="stylesheet" href="css/Audio.css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="container">
+
+<div ><audio id="audioOne" width="940" height="537">
+  <source src="audio/rd-6.mp3" type="audio/mpeg">
+  <source src="audio/rd-6.wav" type="audio/wav">
+  <source src="audio/rd-6.ogg" type="audio/ogg">
+Your browser does not support the audio tag.
+</audio>
+</div>
+
+<div><audio id="audioTwo" width="940" height="537">
+  <source src="audio/rd-1.mp3" type="audio/mpeg">
+  <source src="audio/rd-1.wav" type="audio/wav">
+  <source src="audio/rd-1.ogg" type="audio/ogg">
+Your browser does not support the audio tag.
+</audio></div>
+
+<div><audio id="audioThree" width="940" height="537">
+  <source src="audio/rd-5.mp3" type="audio/mpeg">
+  <source src="audio/rd-5.wav" type="audio/wav">
+  <source src="audio/rd-5.ogg" type="audio/ogg">
+Your browser does not support the audio tag.
+</audio></div>
+
+<div><audio id="audioFour" width="940" height="537">
+  <source src="audio/rd-0.mp3" type="audio/mpeg">
+  <source src="audio/rd-0.wav" type="audio/wav">
+  <source src="audio/rd-0.ogg" type="audio/ogg">
+Your browser does not support the audio tag.
+</audio></div>
+
+<div id="imageHold">
+    <div id="loader"><img src="img/loading.gif" width="300" height="250" alt="LOADING"/></div><!--LOADER-->
+    <div id="imgContainer" class="imgOne"><img src="img/sugarhill1.jpg" width="300" height="250" alt="One"/></div>
+    <div id="imgContainer" class="imgTwo"><img src="img/Foldgers.jpg" width="300" height="250" alt="Three"/></div>
+    <div id="imgContainer" class="imgThree"><img src="img/coffee.jpg" width="300" height="250" alt="One"/></div>
+    <div id="imgContainer" class="imgFour"><img src="img/Brian-williams.jpg" width="300" height="250" alt="Two"/></div>
+</div>
+
+<div class="footer">
+<div id="bttn1" class="number">1</div>
+<div id="bttn2"  class="number">2</div>
+<div id="bttn3" class="number">3</div>
+<div id="bttn4" class="number">4</div>
+<div id="bttnPlayPause"></div>
+</div>
+
+</div>
+<!--<script type="text/javascript" src="js/jquery.js"></script>-->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>-->
+<script type="text/javascript" src="js/Audio.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #000;
+	margin: 0 ;
+	padding: 0;
+	color: #000;
+}
+body a{
+	color: #333;
+	text-decoration: none;
+}
+ul, li{
+	display: block;
+	margin:0;
+	padding: 0;
+	float:left;
+}
+
+.container{
+	width:300px;
+	height:313px;/*537*/
+	overflow:hidden;
+	position:relative;
+	border: 1px solid #333;
+	margin:0 auto;
+	margin-top: 40px;
+	/*If you are trying to hide absolute positioned elements make sure the container of those
+	  absolute positioned elements is relatively positioned.*/	
+}
+#loader{
+	width:300px;
+	height:250px;
+	position: absolute;
+	z-index: 100;
+	background-color: #FFF;
+}
+.audio{
+	width:300px;
+	height:250px;
+	position: absolute;
+	z-index: 10;
+}
+.footer{
+	width:300px;
+	height:63px;
+	background: #FFF;
+	top:250px;
+	position: absolute;
+	z-index:20;
+}
+.number{
+	width:40px;
+	height: 40px;
+	font-size: 25px;
+	text-align: center;
+	display: block;
+	float: left;
+	margin:10px 0 0 20px;
+	cursor: pointer;
+	/*background-image: url(../img/play.png);*/
+}
+.number a:hover{
+	background-color: #CCCCCC;
+}
+#bttnPlayPause{
+	width:35px;
+	height:40px;
+	display: block;
+	float: left;
+	margin:10px 0 0 20px;
+	cursor: pointer;
+	background-image: url(../img/playPause.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+#audioOne{
+	/*width:940px;
+	height:537px;
+	position:absolute;*/
+	top:0px;
+	left:0px;
+	z-index:1;
+	opacity: 1;
+}
+#audioTwo{
+	/*width:940px;
+	height:537px;
+	position:absolute;*/
+	top:0px;
+	left:0px;
+	z-index:2;
+	opacity: 0;
+}
+#audioThree{
+	/*width:940px;
+	height:537px;
+	position:absolute;*/
+	top:0px;
+	left:0px;
+	z-index:3;
+	opacity: 0;
+}
+#audioFour{
+	/*width:940px;
+	height:537px;
+	position:absolute;*/
+	top:0px;
+	left:0px;
+	z-index:4;
+	opacity: 0;
+}
+/*////IMAGES/////*/
+#imageHold{
+	width:300px;
+	height:250px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:4;
+	float:left;
+	/*background-image: url(../img/sugarhill1.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;*/
+}
+#imgContainer{
+	width:300px;
+	height:250px;
+	margin:0;
+	padding: 0;
+	position:absolute;
+	display: block;
+	float:left;
+}
